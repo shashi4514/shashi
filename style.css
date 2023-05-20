@@ -1,0 +1,115 @@
+#todo {
+	 background-image: linear-gradient(to left top, #1aca1e, #69d40b, #98dd00, #c2e501, #e9ed1a);
+	border-radius: 20px;
+	font-weight: bold;
+	box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
+	color: #4a4a4a;
+	display: block;
+	padding: 1.25rem;
+	max-width: 400px;
+	margin: 10px;
+}
+
+#status {
+	text-align: right;
+	color: #ce2f2e;
+}
+
+#inputform {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+label {
+	max-width: 50%;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+body {
+	min-height: 400px;
+   	margin-bottom: 180px;
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 1.125;
+	word-break: break-word;
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+blockquote {
+	font-size: 1.5rem;
+	color: #4a4a4a;
+	margin-bottom: 1.5rem;
+	font-weight: 400;
+	line-height: 1.25;
+	word-break: break-word;
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input: placeholder {
+	color: rgba(54,54,54,.3);
+}
+
+input: hover {
+	border-color: #b5b5b5;
+}
+
+input {
+
+	border-radius: 4px;
+	color: #4D4D4D;
+	font-weight: 400;
+	width: 100%;
+	padding: 15px 12px;
+	transition: border-color ease-out 300ms;
+	border: 1px solid #e3e3e3;
+}
+
+button:hover {
+	background-color: #3367b9;
+	border-color: transparent;
+	color: #fff;
+}
+
+button {
+	max-width: 50%;
+	background-color: rgb(39, 108, 218);
+	color: white;
+	cursor: pointer;
+	justify-content: center;
+	padding-bottom: calc(.375em - 1px);
+	padding-top: calc(.375em - 1px);
+	border-width: 1px;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	height: 2.25em;
+	border: 1px solid transparent;
+	-webkit-appearance: none;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	color: #0d0d0d;
+	text-align: center;
+	background-color: #fafafa;
+	bottom: -200px;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}/*
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
+  footer { 
+	max-width: 100%; 
+    align-items: center;
+  }
+}*/
